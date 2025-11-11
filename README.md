@@ -52,7 +52,7 @@ cd Automated-Product-Tagging-for-E-commerce
 cd backend
 ```
 
-# Create and Activate Virtual Environment
+### Create and Activate Virtual Environment
 Create venv
 ```bash
 python -m venv venv
@@ -68,13 +68,13 @@ On macOS/Linux:
 source venv/bin/activate
 ```
 
-# Install Dependencies
+### Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-# Run Backend Server
+### Run Backend Server
 ```bash
 python app.py
 ```
